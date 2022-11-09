@@ -9,29 +9,65 @@ setInterval(() => {
     mess1.classList.toggle('animation3')
     mess1.classList.toggle('animation4')
 }, 2000)
+var width = screen.width
+if (300 <= width && width <= 500) {
+    var heightHeart = 125
+    var widthHeart = 130
+    var a = 50;
+    var b = 20;
+    var c = 10;
+    var d = 20;
+
+    var settings = {
+
+        particles: {
+
+            length: 450, // maximum amount of particles
+
+            duration: 2, // particle duration in sec
+
+            velocity: 20, // particle velocity in pixels/sec
+
+            effect: -1, // play with this for a nice effect
+
+            size: 20, // particle size in pixels
+
+        },
+
+    };
+
+}
+else {
+    var heightHeart = 200
+    var widthHeart = 150
+    var a = 60;
+    var b = 30;
+    var c = 20;
+    var d = 30;
+    var settings = {
+
+        particles: {
+
+            length: 450, // maximum amount of particles
+
+            duration: 2, // particle duration in sec
+
+            velocity: 100, // particle velocity in pixels/sec
+
+            effect: -1, // play with this for a nice effect
+
+            size: 25, // particle size in pixels
+
+        },
+
+    };
+
+}
 /*
  
 * Settings
  
 */
-
-var settings = {
-
-    particles: {
-
-        length: 450, // maximum amount of particles
-
-        duration: 2, // particle duration in sec
-
-        velocity: 100, // particle velocity in pixels/sec
-
-        effect: -1, // play with this for a nice effect
-
-        size: 25, // particle size in pixels
-
-    },
-
-};
 
 
 /*
@@ -320,9 +356,9 @@ var ParticlePool = (function () {
 
         return new Point(
 
-            200 * Math.pow(Math.sin(t), 3),
+            heightHeart * Math.pow(Math.sin(t), 3),
 
-            150 * Math.cos(t) - 60 * Math.cos(2 * t) - 30 * Math.cos(3 * t) - 20 * Math.cos(4 * t) + 30
+            widthHeart * Math.cos(t) - a * Math.cos(2 * t) - b * Math.cos(3 * t) - c * Math.cos(4 * t) + d
 
         );
 

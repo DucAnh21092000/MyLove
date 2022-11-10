@@ -55,56 +55,56 @@
  @keyframes scaleText {
      from {
          font-size: 20px;
-         background: linear-gradient(to right, #ef6eae 0%, red 100%);
+         background: linear-gradient(to right, #e0ef6e 0%, red 100%);
          background-clip: text;
-         color: transparent;
+         color: rgba(255, 255, 255, 0);
          -webkit-background-clip: text;
          -moz-background-clip: text;
          -moz-background-clip: text;
          -webkit-box-decoration-break: clone;
-         -webkit-text-fill-color: transparent;
-         background: -webkit-linear-gradient(to right, red 0%, #ef6eae 100%);
+         -webkit-text-fill-color: rgba(255, 255, 255, 0);
+         background: -webkit-linear-gradient(to right, red 0%, #e0ef6e 100%);
      }
 
      to {
          font-size: 40px;
-         background: linear-gradient(to right, red 0%, #ef6eae 100%);
+         background: linear-gradient(to right, red 0%, #e0ef6e 100%);
          background-clip: text;
-         color: transparent;
+         color: rgba(255, 255, 255, 0);
          -webkit-background-clip: text;
          -moz-background-clip: text;
          -moz-background-clip: text;
          -webkit-box-decoration-break: clone;
-         -webkit-text-fill-color: transparent;
-         background: -webkit-linear-gradient(to right, red 0%, #ef6eae 100%);
+         -webkit-text-fill-color: rgba(255, 255, 255, 0);
+         background: -webkit-linear-gradient(to right, red 0%, #e0ef6e 100%);
      }
  }
 
  @keyframes scaleText2 {
      from {
          font-size: 40px;
-         background: linear-gradient(to right, red 0%, #ef6eae 100%);
+         background: linear-gradient(to right, red 0%, #e0ef6e 100%);
          background-clip: text;
-         color: transparent;
+         color: rgba(255, 255, 255, 0);
          -webkit-background-clip: text;
          -moz-background-clip: text;
          -moz-background-clip: text;
          -webkit-box-decoration-break: clone;
-         -webkit-text-fill-color: transparent;
-         background: -webkit-linear-gradient(to right, red 0%, #ef6eae 100%);
+         -webkit-text-fill-color: rgba(255, 255, 255, 0);
+         background: -webkit-linear-gradient(to right, red 0%, #e0ef6e 100%);
      }
 
      to {
          font-size: 20px;
-         background: linear-gradient(to right, #ef6eae 0%, red 100%);
+         background: linear-gradient(to right, #e0ef6e 0%, red 100%);
          background-clip: text;
-         color: transparent;
+         color: rgba(255, 255, 255, 0);
          -webkit-background-clip: text;
          -moz-background-clip: text;
          -moz-background-clip: text;
          -webkit-box-decoration-break: clone;
-         -webkit-text-fill-color: transparent;
-         background: -webkit-linear-gradient(to right, red 0%, #ef6eae 100%);
+         -webkit-text-fill-color:rgba(255, 255, 255, 0);
+         background: -webkit-linear-gradient(to right, red 0%, #e0ef6e 100%);
      }
  }
 

@@ -24,7 +24,7 @@
     @keyframes scaleText {
         from {
             font-size: 15px;
-            background: linear-gradient(to right, #ef6eae 0%, red 100%);
+            background: linear-gradient(to right, yellow 0%, red 100%);
             background-clip: text;
             color: transparent;
             -webkit-background-clip: text;
@@ -34,7 +34,7 @@
 
         to {
             font-size: 20px;
-            background: linear-gradient(to right, red 0%, #ef6eae 100%);
+            background: linear-gradient(to right, red 0%, yellow 100%);
             background-clip: text;
             color: transparent;
             -webkit-background-clip: text;
@@ -46,7 +46,7 @@
     @keyframes scaleText2 {
         from {
             font-size: 20px;
-            background: linear-gradient(to right, red 0%, #ef6eae 100%);
+            background: linear-gradient(to right, red 0%, yellow 100%);
             background-clip: text;
             color: transparent;
             -webkit-background-clip: text;
@@ -56,7 +56,7 @@
 
         to {
             font-size: 15px;
-            background: linear-gradient(to right, #ef6eae 0%, red 100%);
+            background: linear-gradient(to right, yellow 0%, red 100%);
             background-clip: text;
             color: transparent;
             -webkit-background-clip: text;

@@ -20,7 +20,7 @@
      left: 50%;
      z-index: 99;
      transform: translate(-50%, -50%);
-    
+
  }
 
  .animation {
@@ -55,44 +55,48 @@
  @keyframes scaleText {
      from {
          font-size: 20px;
-          background: linear-gradient(to right, #ef6eae 0%, red 100%);
-          background-clip: text;
-          color: transparent;
-          -webkit-background-clip: text;
-          -moz-background-clip: text;
-          -moz-background-clip: text;
+         background: linear-gradient(to right, #ef6eae 0%, red 100%);
+         background-clip: text;
+         color: transparent;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         -moz-background-clip: text;
+         -webkit-box-decoration-break: clone;
      }
 
      to {
          font-size: 40px;
-          background: linear-gradient(to right, red 0%, #ef6eae 100%);
-          background-clip: text;
-          color: transparent;
-          -webkit-background-clip: text;
-          -moz-background-clip: text;
-          -moz-background-clip: text;
+         background: linear-gradient(to right, red 0%, #ef6eae 100%);
+         background-clip: text;
+         color: transparent;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         -moz-background-clip: text;
+         -webkit-box-decoration-break: clone;
      }
  }
 
  @keyframes scaleText2 {
      from {
          font-size: 40px;
- background: linear-gradient(to right, red  0%, #ef6eae 100%);
- background-clip: text;
- color: transparent;
- -webkit-background-clip: text;
- -moz-background-clip: text;
- -moz-background-clip: text;
+         background: linear-gradient(to right, red 0%, #ef6eae 100%);
+         background-clip: text;
+         color: transparent;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         -moz-background-clip: text;
+         -webkit-box-decoration-break: clone;
      }
 
      to {
          font-size: 20px;
-          background: linear-gradient(to right, #ef6eae 0%, red 100%);
-          background-clip: text;
-          color: transparent;
-          -webkit-background-clip: text;
-          -moz-background-clip: text;
-          -moz-background-clip: text;
+         background: linear-gradient(to right, #ef6eae 0%, red 100%);
+         background-clip: text;
+         color: transparent;
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+         -moz-background-clip: text;
+         -webkit-box-decoration-break: clone;
      }
  }
 
@@ -104,4 +108,3 @@
      animation: scaleText2 2s infinite;
 
  }
- 
